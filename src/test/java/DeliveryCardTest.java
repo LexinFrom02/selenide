@@ -42,6 +42,6 @@ public class DeliveryCardTest {
         $("[name='phone']").setValue("+79123456790");
         $("[data-test-id='agreement']").click();
         $(withText("Забронировать")).click();
-        $(withText("Успешно!")).waitUntil(visible, 13000);
+        $(withText("Успешно!")).waitUntil(visible, 20000);
     }
 }
